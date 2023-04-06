@@ -1,3 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,500;0,600;0,800;0,900;1,100;1,400;1,500;1,800;1,900&display=swap");
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 
+.wrapper {
+  width: 1500px;
+  margin: auto;
+}
+
+.main_header {
+  background-image: url(../images/image1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1100px;
+  color: white;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Poppins", sans-serif;
+}
+.menu h1 {
+  font-weight: bold;
+}
+.menu nav ul {
+  display: flex;
+}
+.menu li {
+  margin: 10px;
+  list-style-type: none;
+}
+.menu li a {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: white;
+  height: 35px;
+  line-height: 35px;
+  font-size: 15px;
+}
+.menu li button {
+  text-transform: capitalize;
+  font-family: "Poppins", sans-serif;
+  color: rgb(94, 94, 255);
+  padding: 10px 20px;
+  font-weight: 700;
+  border-radius: 5px;
+  border: none;
+}
+
+.titres {
+  text-align: center;
+  text-transform: capitalize;
+  font-family: "Poppins", sans-serif;
+  margin: 150px auto;
+  width: 700px;
+}
+.titres h2 {
+  font-size: 60px;
+}
+.titres h3 {
+  font-size: 20px;
+  font-weight: 100;
+}
+
+main {
+  width: 1500px;
+  margin: auto;
+  margin-top: -200px;
+}
+
+.formulaire_btn header nav {
+  width: 200px;
+  height: 60px;
+  padding: 10px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+}
+.formulaire_btn header nav button {
+  border: none;
+  background-color: rgb(210, 219, 255);
+  text-transform: capitalize;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  padding: 10px 15px;
+  border-radius: 15px;
+  height: 60px;
+}
+
+.formulaire {
+  background-color: white;
+  border-radius: 15px;
+  border-top-left-radius: 0px;
+  padding: 20px;
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+}
+.formulaire form {
+  display: flex;
+  justify-content: center;
+}
+.formulaire form span {
+  border: 1px rgb(58, 58, 58) dashed;
+  border-radius: 50%;
+  padding: 10px;
+  display: flex;
+  margin: auto 0;
+}
+.formulaire form span i {
+  margin: auto;
+  line-height: 20px;
+  color: rgb(58, 58, 58);
+}
+.formulaire .destination,
+.formulaire .dates {
+  border: 1px solid black;
+  border-radius: 15px;
+  width: 500px;
+  display: flex;
+  padding: 20px;
+  margin: 10px;
+  height: 90px;
+  justify-content: space-around;
+}
+.formulaire .destination i {
+  transform: rotate(90deg);
+}
+.formulaire .dates .form_entree:nth-child(1) i {
+  transform: rotate(90deg);
+}
+.formulaire .form_entree {
+  margin: auto 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.search_btn {
+  background-color: rgb(126, 126, 255);
+  color: white;
+  border: none;
+  border-radius: 30px;
+  font-size: 70px;
+  width: 120px;
+  height: 120px;
+  display: flex;
+  cursor: pointer;
+  margin: auto 10px;
+}
+.search_btn i {
+  margin: auto;
+}
 
 /*# sourceMappingURL=style.css.map */

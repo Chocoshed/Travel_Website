@@ -5,187 +5,216 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Travel</title>
 </head>
 
 <body>
-    <header>
-        <div>
-            <h1>Treloo</h1>
-            <nav>
-                <ul>
-                    <li><a href="">review</a></li>
-                    <li><a href="">rips</a></li>
-                    <li><a href="">rlerts</a></li>
-                    <li><a href="">blog</a></li>
-                    <button>log in</button>
-                </ul>
-            </nav>
-        </div>
-        <div>
-            <h2>discover your life, travel where you want</h2>
-            <h3>would you explore natur paradise in the world, let's find the best destination in world with us</h3>
+
+    <header class="main_header">
+        <div class="wrapper">
+            <div class="menu">
+                <h1>Treloo</h1>
+                <nav>
+                    <ul>
+                        <li><a href="">review</a></li>
+                        <li><a href="">rips</a></li>
+                        <li><a href="">rlerts</a></li>
+                        <li><a href="">blog</a></li>
+                        <li><button>log in</button></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="titres">
+                <h2>discover your life, travel where you want</h2>
+                <h3>would you explore natur paradise in the world, let's find the best destination in world with us</h3>
+            </div>
         </div>
     </header>
     <main>
-        <section>
-            <header>
-                <nav>
-                    <button>flight</button>
-                    <button>hotel</button>
-                </nav>
-            </header>
-            <div>
-                <form action="">
-
-                    <button></button>
-                </form>
-                <form action="">
-                    <button></button>
-                </form>
-            </div>
-        </section>
-        <section>
-            <h1>special upcoming offers</h1>
-            <article>
+        <div class="wrapper">
+            <section class="formulaire_btn">
                 <header>
                     <nav>
-                        <button>team</button>
-                        <button>couple</button>
-                        <button>family</button>
+                        <button><i class="bi bi-airplane-fill"></i> flight</button>
+                        <button><i class="bi bi-houses"></i> hotel</button>
                     </nav>
                 </header>
-                <section>
-                    <article>
-                        <img src="" alt="">
-                        <div>
-                            <p>relax</p>
-                            <p>3 days, 3 night</p>
+                <div class="formulaire">
+                    <form action="">
+                        <div class="destination">
+                            <div class="form_entree">
+                                <label for="living_from">Living From</label>
+                                <input type="text" placeholder="Dubai">
+                            </div>
+                            <span><i class="bi bi-airplane-fill"></i></span>
+                            <div class="form_entree">
+                                <label for="going_to">Going to</label>
+                                <input type="text" placeholder="New York">
+                            </div>
                         </div>
-                        <h2>loga sea</h2>
-                        <div>
-                            <p><b>700$</b>/person</p>
-                            <a href="">book now</a>
+                        <div class="dates">
+                            <div class="form_entree">
+                                <label for="living_from">Leave <i class="bi bi-airplane-fill"></i></label>
+                                <input type="date">
+                            </div>
+                            <span><i class="bi bi-calendar-event"></i></span>
+                            <div class="form_entree">
+                                <label for="going_to">Return <i class="bi bi-airplane-fill"></i></label>
+                                <input type="date">
+                            </div>
                         </div>
-                    </article>
-                    <article>
-                        <img src="" alt="">
-                        <div>
-                            <p>adventure</p>
-                            <p>4 days, 3 nights</p>
-                        </div>
-                        <h2>angsgar scheffold</h2>
-                        <div>
-                            <p><b>400$</b>/person</p>
-                            <a href="">book now</a>
-                        </div>
-                    </article>
-                    <article>
-                        <img src="" alt="">
-                        <div>
-                            <p>relax</p>
-                            <p>7 days, 6 nights</p>
-                        </div>
-                        <h2>lona x</h2>
-                        <div>
-                            <p><b>340$</b>/person</p>
-                            <a href="">Bbook now</a>
-                        </div>
-                    </article>
-                </section>
-            </article>
-        </section>
-        <section>
-            <div>
-                <div></div>
-                <img src="" alt="">
+                        <button class="search_btn"><i class="bi bi-search"></i></button>
+                    </form>
+                    <!-- <form action="">
+                        <button></button>
+                    </form> -->
+                </div>
+            </section>
+            <section>
+                <h1>special upcoming offers</h1>
+                <article>
+                    <header>
+                        <nav>
+                            <button>team</button>
+                            <button>couple</button>
+                            <button>family</button>
+                        </nav>
+                    </header>
+                    <section>
+                        <article>
+                            <img src="" alt="">
+                            <div>
+                                <p>relax</p>
+                                <p>3 days, 3 night</p>
+                            </div>
+                            <h2>loga sea</h2>
+                            <div>
+                                <p><b>700$</b>/person</p>
+                                <a href="">book now</a>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="" alt="">
+                            <div>
+                                <p>adventure</p>
+                                <p>4 days, 3 nights</p>
+                            </div>
+                            <h2>angsgar scheffold</h2>
+                            <div>
+                                <p><b>400$</b>/person</p>
+                                <a href="">book now</a>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="" alt="">
+                            <div>
+                                <p>relax</p>
+                                <p>7 days, 6 nights</p>
+                            </div>
+                            <h2>lona x</h2>
+                            <div>
+                                <p><b>340$</b>/person</p>
+                                <a href="">Bbook now</a>
+                            </div>
+                        </article>
+                    </section>
+                </article>
+            </section>
+            <section>
                 <div>
                     <div></div>
-                    <div></div>
+                    <img src="" alt="">
+                    <div>
+                        <div></div>
+                        <div></div>
+                    </div>
                 </div>
-            </div>
-            <article>
-                <h1>travel any corner of the world with us</h1>
-                <p></p>
-                <a href="">contact us</a>
-            </article>
-        </section>
-        <section>
-            <h1>recommended destination</h1>
-            <article>
-                <header>
-                    <nav>
-                        <button>populor</button>
-                        <button>adventure</button>
-                        <button>beath</button>
-                    </nav>
-                </header>
-                <section>
-                    <article>
-                        <img src="" alt="">
-                        <h2>Kina Mountain</h2>
-                        <p>Cambodia</p>
-                    </article>
-                    <article>
-                        <img src="" alt="">
-                        <h2>kina moutain</h2>
-                        <p>cambodia</p>
-                    </article>
-                    <article>
-                        <img src="" alt="">
-                        <h2>kina moutain</h2>
-                        <p>cambodia</p>
-                    </article>
-                    <article>
-                        <img src="" alt="">
-                        <h2>kina moutain</h2>
-                        <p>cambodia</p>
-                    </article>
-
-            </article>
-        </section>
-        </article>
-        </section>
-        <aside>
-            <div>
                 <article>
-                    <img src="" alt="">
+                    <h1>travel any corner of the world with us</h1>
                     <p></p>
-                    <p></p>
-                    <p></p>
-                    <img src="" alt="">
+                    <a href="">contact us</a>
                 </article>
+            </section>
+            <section>
+                <h1>recommended destination</h1>
                 <article>
-                    <img src="" alt="">
-                    <p></p>
-                    <p></p>
-                    <p></p>
-                    <img src="" alt="">
+                    <header>
+                        <nav>
+                            <button>populor</button>
+                            <button>adventure</button>
+                            <button>beath</button>
+                        </nav>
+                    </header>
+                    <section>
+                        <article>
+                            <img src="" alt="">
+                            <h2>Kina Mountain</h2>
+                            <p>Cambodia</p>
+                        </article>
+                        <article>
+                            <img src="" alt="">
+                            <h2>kina moutain</h2>
+                            <p>cambodia</p>
+                        </article>
+                        <article>
+                            <img src="" alt="">
+                            <h2>kina moutain</h2>
+                            <p>cambodia</p>
+                        </article>
+                        <article>
+                            <img src="" alt="">
+                            <h2>kina moutain</h2>
+                            <p>cambodia</p>
+                        </article>
+
                 </article>
-            </div>
-            <button>
+            </section>
+            </article>
+            </section>
+            <aside>
+                <div>
+                    <article>
+                        <img src="" alt="">
+                        <p></p>
+                        <p></p>
+                        <p></p>
+                        <img src="" alt="">
+                    </article>
+                    <article>
+                        <img src="" alt="">
+                        <p></p>
+                        <p></p>
+                        <p></p>
+                        <img src="" alt="">
+                    </article>
+                </div>
+                <button>
 
-            </button>
-            <button>
+                </button>
+                <button>
 
-            </button>
-        </aside>
+                </button>
+            </aside>
+        </div>
     </main>
     <footer>
-        <main>
-            <h1>don't miss the 50% discount if you register today</h1>
-            <a href="">register today</a>
-        </main>
-        <footer>
-            <p>2022 treloo llc - all right reserved.</p>
-            <ul>
-                <li><a href="">review</a></li>
-                <li><a href="">tips</a></li>
-                <li><a href="">alerts</a></li>
-                <li><a href="">blog</a></li>
-            </ul>
-        </footer>
+        <div class="wrapper">
+            <main>
+                <h1>don't miss the 50% discount if you register today</h1>
+                <a href="">register today</a>
+            </main>
+            <footer>
+                <p>2022 treloo llc - all right reserved.</p>
+                <ul>
+                    <li><a href="">review</a></li>
+                    <li><a href="">tips</a></li>
+                    <li><a href="">alerts</a></li>
+                    <li><a href="">blog</a></li>
+                </ul>
+            </footer>
+        </div>
     </footer>
 </body>
 
